@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 class JenkinsClassProj2ApplicationTests {
     private Logger logger = Logger.getLogger(JenkinsClassProj2ApplicationTests.class.getName());
     @Test
-    void contextLoads() {
+    contextLoads() {
         logger.log(Level.INFO, "This test displays a log message");
     }
 
